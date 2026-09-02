@@ -2,6 +2,8 @@ import type { MetadataRoute } from "next";
 
 import { projects } from "@/lib/portfolio-projects";
 
+export const dynamic = "force-static";
+
 const siteUrl = "https://roeebibas.github.io";
 
 export default function sitemap(): MetadataRoute.Sitemap {
